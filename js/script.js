@@ -78,6 +78,8 @@ if (hours == 1) {
    $("#eleven").addClass("selected");
 } else if (hours == 12) {
    $("#twelve").addClass("selected");
+} else if (hours == 13) {
+   $("#one").addClass("selected");
 }
 });
 
