@@ -32,14 +32,18 @@ footer, .push {
   max-width: 1200px; 
   margin: 0 auto; 
   padding: 0 20px;
-  box-sizing: border-box; 
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box; 
 }
 
 .column,        
 .columns { 
   width: 100%; 
   float: left; 
-  box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+     -moz-box-sizing: border-box; 
+          box-sizing: border-box; 
   margin-bottom: 20px;
 }
 
@@ -219,10 +223,13 @@ input[type="button"] {
   text-decoration: none;
   white-space: nowrap;
   background-color: transparent;
-  border-radius: 4px;
+  -webkit-border-radius: 4px;
+          border-radius: 4px;
   border: 1px solid #bbb;
   cursor: pointer;
-  box-sizing: border-box; 
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box; 
 }
 
 .button:hover,
@@ -384,9 +391,13 @@ select {
   padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
   background-color: #fff;
   border: 1px solid #D1D1D1;
-  border-radius: 4px;
-  box-shadow: none;
-  box-sizing: border-box; 
+  -webkit-border-radius: 4px;
+          border-radius: 4px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box; 
 }
 
 /* Removes awkard default styles on some inputs for iOS */
@@ -481,7 +492,8 @@ code {
   white-space: nowrap;
   background: #F1F1F1;
   border: 1px solid #E1E1E1;
-  border-radius: 4px; 
+  -webkit-border-radius: 4px;
+          border-radius: 4px; 
 }
 
 pre > code {
@@ -546,12 +558,16 @@ p {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .u-full-width {
   width: 100%;
-  box-sizing: border-box; 
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box; 
 }
 
 .u-max-full-width {
   max-width: 100%;
-  box-sizing: border-box; 
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box; 
 }
 
 .u-pull-right {
@@ -661,4 +677,3 @@ body {
 @media only screen and (min-width : 1824px) {
 /* Styles */
 }
-
