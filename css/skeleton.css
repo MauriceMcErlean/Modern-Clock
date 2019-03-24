@@ -597,7 +597,7 @@ header{
 
 footer{
   color: #7f8c8d;
-  padding-top: 50px;
+  padding-top: 30px;
   padding-bottom: 10px;
   text-align: center;
 }
@@ -617,7 +617,7 @@ there.
 */
 
 p {
-  font-size: 4.4rem;
+  font-size: 2.9rem;
   text-align: center;
   color:#34495e;
   text-transform: uppercase;
